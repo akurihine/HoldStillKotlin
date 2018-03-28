@@ -23,7 +23,6 @@ class ExampleItemView @JvmOverloads constructor(
         topText.text = example.topText
         infoText.text = example.infoText
         shopInfo.text = example.shopInfo
-        //setBackgroundColor(example.color!!)
         Glide.with(context).load(example.imageUrl).into(image)
     }
 }
