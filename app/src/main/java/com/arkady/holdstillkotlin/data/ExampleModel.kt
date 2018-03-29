@@ -1,9 +1,7 @@
 package com.arkady.holdstillkotlin.data
 
-class ExampleModel{
-    var topText: String? = null
-    var mainText: String? = null
-    var infoText: String? = null
-    var shopInfo: String? = null
-    var imageUrl: String? = null
-}
+data class ExampleModel (val mainText: String,
+                         val topText: String,
+                         val infoText: String,
+                         val shopInfo: String,
+                         val imageUrl: String)
